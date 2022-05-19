@@ -974,12 +974,8 @@ COMPOSANTES
   background-color: #008246;
 }
 
-.menu-atelier-container .menu-atelier .menu-item-icone {
-  border-color: 5px solid red;
-}
-
 .menu-atelier-container .menu-item {
-  background-color: white;
+  background-color: #ddd;
 }
 
 .menu-atelier-container .menu-item a {
@@ -991,7 +987,7 @@ COMPOSANTES
 }
 
 .menu-atelier-container .menu-item:hover {
-  background-color: #008246;
+  background-color: #1679ab;
 }
 
 .menu-categorie_cours-container .menu {

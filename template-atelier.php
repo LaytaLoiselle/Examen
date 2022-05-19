@@ -16,29 +16,21 @@
 
          <h3><?php the_title() ?></h3>
 
-         <h4>Description</h4>
-         <p><?php the_field('description'); ?><p>
-        
-         <h4>Animateur</h4>
-         <?php the_field('animateur'); ?>
-         <h4>Date de début</h4>
-         <?php the_field('date_de_debut'); ?>
-         <h4>Date de fin</h4>
-         <?php the_field('date_de_fin'); ?>
-         <h4>Jour de la semaine</h4>
-         <?php the_field('jour_de_la_semaine'); ?>
-         <h4>L'heure du début</h4>
-         <?php the_field('heure_de_debut'); ?>
-         <h4>L'heure de fin</h4>
-         <?php the_field('heure_de_fin'); ?>
-         <h4>La durée</h4>
-         <?php the_field('duree'); ?>
-         <h4>Le local</h4>
-         <?php the_field('local'); ?>
+         <div class="padding_gauche">
+            <h4>Description</h4>
+               <p><?php the_field('description'); ?><p>
+               <p>Lanimateur de l'atelier : <strong><?php the_field('animateur'); ?></strong></p>
+               <p>Le local de l'atelier :  <strong><?php the_field('local'); ?></strong></p>
+            <h4>Horaire et dates de l'atelier</h4>
+               <p>Durée de chacune des séances est de: <strong><?php the_field('duree'); ?></strong></p>
+               <p>Date de début: <strong><?php the_field('date_de_debut'); ?></strong></p>
+               <p>Date de fin: <strong><?php the_field('date_de_fin'); ?></strong></p>
+               <p>La formation se donnera: <strong><?php the_field('jour_de_la_semaine'); ?></strong></p>
+               <p>L'heure du début   <strong><?php the_field('heure_de_debut'); ?></strong></p>
+               <p>L'heure de fin <strong><?php the_field('heure_de_fin'); ?></strong> </p>
+         </div>
          
-
-
-
+         
          
          <?php the_content() ?>
 
