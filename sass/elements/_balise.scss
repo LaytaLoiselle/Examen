@@ -1,0 +1,53 @@
+h1 {
+    font-size: clamp(1.5rem,3vw,6rem);
+}
+h2 {
+    font-size: clamp(1rem,2vw,3rem);
+}
+h3 {
+    font-size: 1.8rem;
+    color: #1679ab;
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+    padding: 8px;
+    border-bottom: 6px solid #1679ab;
+    text-shadow: 1px 1px 1px black;
+    font-weight: normal;
+}
+
+h4 {
+    font-size: 1.4rem;
+}
+h5 {
+    font-size: 2rem;
+}
+h6 {
+    font-size: 1.5rem;
+}
+p {
+    font-size: 1rem;
+}
+
+
+h1,h2 {
+    color: $color__titre__principal;
+    font-family: $police_titre__principal;
+    text-shadow: 2px 2px 10px black;
+}
+
+
+h4 {
+    font-family: $police_titre__ternaire;
+    color: black;
+    text-decoration: underline;
+}
+
+h5,h6 {
+    font-family: $police_titre__ternaire;
+    color: $color__titre__ternaire;
+    text-decoration: underline;
+}
+
+p{
+    font-family: $police_paragraphe;
+}

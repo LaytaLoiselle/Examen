@@ -1,0 +1,26 @@
+/**
+Galerie gutenberg de la page d'accueil
+*/
+
+.galerie{
+    width: 100%;
+    margin: 5% auto;
+    background-color: #0d3c4a;
+    padding: 15px;
+    box-sizing:border-box;
+    box-shadow: 0px 0px 10px white;
+
+    @media screen and (min-width: $largeur__media--tablette) {
+        width: 75%;
+
+
+        background-color: #0d3c4a;
+        padding: 15px;
+        box-sizing: content-box;
+
+    }
+
+    li:hover {
+        cursor: pointer;
+    }
+}

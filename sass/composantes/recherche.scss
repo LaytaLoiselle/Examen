@@ -1,0 +1,36 @@
+.recherche {
+    position: relative;
+    display: flex;
+    width: 100%;
+    @media screen and (min-width : $largeur__media--tablette){
+        width: 350px;
+      }
+    
+    &__input{
+        padding: 8px;
+        flex: 1;
+        background-color: rgba(255, 255, 255, 0.4);
+        transition: all 0.3s;
+        border:none;
+        outline: none;
+        &::placeholder {
+            color:white;
+            opacity: 1;
+        }
+        &:focus {
+            background-color: white;
+        }
+    }
+    &__bouton{
+        position: absolute;
+        right: 0;
+        top:0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border:none;
+        svg{
+
+        }
+    }
+}

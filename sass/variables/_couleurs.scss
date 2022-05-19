@@ -1,0 +1,67 @@
+/* ---------------- BACKGROUND */
+$color__background-header : #0d3c4a;
+$color__background-footer: #0d3c4a;
+$color__background-body : hsl(107, 19%, 49%);
+$color__background-body-clip : hsl(193, 19%, 49%);
+$color__background-main : hsl(98, 64%, 79%);
+$color__background-cours : hsl(81, 100%, 91%);
+$color__background-barre : hsl(0, 0%, 43%);
+$color__background-link : hsl(99, 26%, 87%);
+$color__background-link-hover : hsl(0, 0%, 49%);
+
+/* ---------------- LIENS */
+$color__link : black;
+$color__link-hover : white;
+$color__link-visited : hsl(0, 0%, 50%);
+
+/* ---------------- LIENS FOOTER */
+$color__link__footer : white;
+$color__link__footer-hover : #1679ab;
+$color__link__footer-visited : hsl(98, 15%, 57%);
+
+/* ---------------- LIENS HEADER */
+$color__link__header: white;
+$color__link__header-visited: white; 
+$color__link__header-hover: hsl(98, 64%, 79%);
+
+/*-------------COULEURS MENU FOOTER-------------*/
+$color__link__footer__menu: #fff;
+$color__link__footer__menu-visited: #ddd;
+$color__link__footer__menu-hover: hsl(98, 15%, 57%);
+$background__link__footer__menu: #444;
+$background__link__footer__menu-visited: #555;
+$background__link__footer__menu-hover: #222;
+
+/*-------------COULEURS MENU PRINCIPAL-------------*/
+$color__link__menu__principal:#0f0;
+$color__link__menu__principal-visited:#0e0;
+$color__link__menu__principal-hover:#00f;
+$background__link__menu__principal:#ddd;
+$background__link__menu__principal-visited:#ccc;
+$background__link__menu__principal-hover:#ddd;
+
+/* ---------------- FONT */
+$color__font-header : hsl(98, 64%, 79%);
+$color__font-main :rgb(68, 57, 54);
+$color__font-barre : rgb(255, 255, 255);
+$color__font-footer : rgb(255, 255, 255);
+
+/*-------------Couleur bouton menu-categorie cours-------------*/
+$color__bouton__color:rgb(0, 0, 0);
+$color__bouton__background:#ddd;
+$color__bouton__color--hover:rgb(255, 255, 255);
+$color__bouton__background--hover:#1679ab;
+$color__bouton__color--current:rgb(255, 255, 255);
+$color__bouton__background--current:rgb(81, 163, 142);
+
+
+/*-------------Couleur bouton menu-categorie cours-------------*/
+$color__titre__principal: white;
+$color__titre__secondaire: #1679ab;
+$color__titre__ternaire: hsl(98, 64%, 79%);
+
+/*----------------------Carte d'accueil-----------------------*/
+$color__carte__evenement: rgb(0, 0, 0);
+$color__carte__evenement__background: white;
+$color__carte__evenement--hover: white;
+$color__carte__evenement__background--hover: #008246;

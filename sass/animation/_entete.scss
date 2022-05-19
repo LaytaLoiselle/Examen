@@ -1,0 +1,64 @@
+.animation{
+    display: flex;
+    justify-content: space-between;
+    animation: anime-entete1 3s ease-out forwards;
+
+    &__bloc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform-origin: center;
+        animation: anime-entete3 0.4s ease-out 2.6s 1 forwards;
+
+        svg {
+            transform-origin: center;
+            animation: anime-entete2 1s linear 0s 3 forwards;
+
+            width: 50px;
+            height: 50px;
+            @media screen and (min-width : $largeur__media--tablette){
+                width: 80px;
+                height: 80px;
+              }
+
+        }
+    }
+
+}
+
+@keyframes anime-entete1 {
+    0% {
+        transform: translate(-110%,100px);
+    }
+
+    100% {
+        transform: translate(0%,0px);
+    }
+}
+
+@keyframes anime-entete2 {
+    0% {
+        transform: rotate(80deg);
+    }
+
+    50% {
+        transform: rotate(100deg);
+    }
+
+    100% {
+        transform: rotate(80deg);
+    }
+}
+
+@keyframes anime-entete3 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-80deg);
+        background-color: #ffffff5b;
+        border-radius: 100px;
+    }
+}
+
