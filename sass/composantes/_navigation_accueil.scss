@@ -1,4 +1,6 @@
-.menu-accueil-container, .menu-evenement-container {
+.menu-accueil-container,
+.menu-evenement-container, 
+.menu-atelier-container {
     
     .menu{
         display: flex;
@@ -79,6 +81,33 @@
 }
 
 .menu-evenement-container{
+
+    .menu-item{
+        background-color: $color__carte__evenement__background;
+        a{
+            color: $color__carte__evenement;
+            &:hover {
+                color: $color__carte__evenement--hover;
+                } 
+        }
+
+        &:hover {
+        background-color: $color__carte__evenement__background--hover;
+        }
+    }
+}
+
+.menu-atelier-container{
+
+    .menu-atelier {
+        .menu-item-icone {
+            border-color: 5px solid red;
+        }
+
+    }
+
+    
+
 
     .menu-item{
         background-color: $color__carte__evenement__background;
